@@ -1,5 +1,5 @@
 function sum(a, b) {
-    throw 'not implemented';
+    return(a+b);
 }
 
 function even(a) {

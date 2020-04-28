@@ -2,7 +2,7 @@ const test = require('ava');
 
 const numbers = require('../src/numbers');
 
-test.skip('sum two numbers', t => {
+test('sum two numbers', t => {
     t.is(numbers.sum(1, 2), 3);
     t.is(numbers.sum(10, -50), -40);
 });
