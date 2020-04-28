@@ -7,7 +7,7 @@ test('sum two numbers', t => {
     t.is(numbers.sum(10, -50), -40);
 });
 
-test.skip('is even', t => {
+test('is even', t => {
     t.true(numbers.even(0));
     t.true(numbers.even(2));
     t.true(numbers.even(888));
