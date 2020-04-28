@@ -15,14 +15,14 @@ test('is even', t => {
     t.false(numbers.even(123432123411));
 });
 
-test.skip('is odd', t => {
+test('is odd', t => {
     t.false(numbers.odd(222));
     t.false(numbers.odd(0));
     t.true(numbers.odd(1));
     t.true(numbers.odd(111));
 });
 
-test.skip('is prime', t => {
+test('is prime', t => {
     t.true(numbers.prime(2));
     t.false(numbers.prime(4));
     t.true(numbers.prime(7));

@@ -12,11 +12,21 @@ function even(a) {
 
 
 function odd(a) {
-    throw 'not implemented';
+    if (a % 2 !== 0){
+    	return true;
+    } else {
+    	return false;
+    }
 }
 
 function prime(a) {
-    throw 'not implemented';
+    if (a % 2 === 0 && a > 2){
+    	return false;
+    } else if (a % a === 0 ){
+    	return true;
+    } else {
+    	return false;
+    }
 }
 
 function sumAll(numbers) {
